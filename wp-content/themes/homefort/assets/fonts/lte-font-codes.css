@@ -1,0 +1,213 @@
+.icon-login:before {
+  content: "\e800";
+} /* 'î €' */
+.icon-close:before {
+  content: "\e801";
+} /* 'î ' */
+.icon-layers:before {
+  content: "\e802";
+} /* 'î ‚' */
+.icon-responsive:before {
+  content: "\e803";
+} /* 'î ƒ' */
+.icon-settings:before {
+  content: "\e804";
+} /* 'î „' */
+.icon-phone-call:before {
+  content: "\e805";
+} /* 'î …' */
+.icon-right-arrow-1:before {
+  content: "\e806";
+} /* 'î †' */
+.icon-choice:before {
+  content: "\e807";
+} /* 'î ‡' */
+.icon-email:before {
+  content: "\e808";
+} /* 'î ˆ' */
+.icon-location:before {
+  content: "\e809";
+} /* 'î ‰' */
+.icon-video:before {
+  content: "\e80a";
+} /* 'î Š' */
+.icon-placeholder:before {
+  content: "\e80b";
+} /* 'î ‹' */
+.icon-time:before {
+  content: "\e80c";
+} /* 'î Œ' */
+.icon-quote_soft:before {
+  content: "\e80d";
+} /* 'î ' */
+.icon-search:before {
+  content: "\e80e";
+} /* 'î Ž' */
+.icon-filter:before {
+  content: "\e80f";
+} /* 'î ' */
+.icon-call-1:before {
+  content: "\e810";
+} /* 'î ' */
+.icon-project:before {
+  content: "\e811";
+} /* 'î ‘' */
+.icon-favorites:before {
+  content: "\e812";
+} /* 'î ’' */
+.icon-exchange:before {
+  content: "\e813";
+} /* 'î “' */
+.icon-font:before {
+  content: "\e814";
+} /* 'î ”' */
+.icon-gear:before {
+  content: "\e815";
+} /* 'î •' */
+.icon-homepages:before {
+  content: "\e816";
+} /* 'î –' */
+.icon-parallax:before {
+  content: "\e817";
+} /* 'î —' */
+.icon-seo-1:before {
+  content: "\e818";
+} /* 'î ˜' */
+.icon-text:before {
+  content: "\e819";
+} /* 'î ™' */
+.icon-coding-1:before {
+  content: "\e81a";
+} /* 'î š' */
+.icon-document:before {
+  content: "\e81b";
+} /* 'î ›' */
+.icon-add_01:before {
+  content: "\e81e";
+} /* 'î ž' */
+.icon-add_02:before {
+  content: "\e81f";
+} /* 'î Ÿ' */
+.icon-add_03:before {
+  content: "\e820";
+} /* 'î  ' */
+.icon-chat:before {
+  content: "\e821";
+} /* 'î ¡' */
+.icon-checkmark:before {
+  content: "\e822";
+} /* 'î ¢' */
+.icon-arrow-long:before {
+  content: "\e823";
+} /* 'î £' */
+.icon-right-arrow:before {
+  content: "\e824";
+} /* 'î ¤' */
+.icon-line:before {
+  content: "\e825";
+} /* 'î ¥' */
+.icon-tick:before {
+  content: "\e826";
+} /* 'î ¦' */
+.icon-shopping-bag:before {
+  content: "\e827";
+} /* 'î §' */
+.icon-menu_arrow:before {
+  content: "\e828";
+} /* 'î ¨' */
+.icon-search-1:before {
+  content: "\e829";
+} /* 'î ©' */
+.icon-headphones-1:before {
+  content: "\e832";
+} /* 'î ²' */
+.icon-avatar:before {
+  content: "\e83d";
+} /* 'î ½' */
+.icon-call:before {
+  content: "\e83e";
+} /* 'î ¾' */
+.icon-download:before {
+  content: "\e83f";
+} /* 'î ¿' */
+.icon-fan:before {
+  content: "\e840";
+} /* 'î¡€' */
+.icon-heater:before {
+  content: "\e841";
+} /* 'î¡' */
+.icon-magnifying-glass:before {
+  content: "\e842";
+} /* 'î¡‚' */
+.icon-send:before {
+  content: "\e843";
+} /* 'î¡ƒ' */
+.icon-shopping-bag-1:before {
+  content: "\e844";
+} /* 'î¡„' */
+.icon-wind:before {
+  content: "\e845";
+} /* 'î¡…' */
+.icon-air-conditioning:before {
+  content: "\e846";
+} /* 'î¡†' */
+.icon-ventilation:before {
+  content: "\e849";
+} /* 'î¡‰' */
+.icon-air-conditioner:before {
+  content: "\e84a";
+} /* 'î¡Š' */
+.icon-house:before {
+  content: "\e84b";
+} /* 'î¡‹' */
+.icon-heater-1:before {
+  content: "\e84c";
+} /* 'î¡Œ' */
+.icon-email-1:before {
+  content: "\e84d";
+} /* 'î¡' */
+.icon-quote_soft_vert:before {
+  content: "\e84e";
+} /* 'î¡Ž' */
+.icon-quote_hard_01:before {
+  content: "\e84f";
+} /* 'î¡' */
+.icon-quote_hard_02:before {
+  content: "\e850";
+} /* 'î¡' */
+.icon-quote_semi:before {
+  content: "\e851";
+} /* 'î¡‘' */
+.icon-settings-1:before {
+  content: "\e852";
+} /* 'î¡’' */
+.icon-heater-2:before {
+  content: "\e856";
+} /* 'î¡–' */
+.icon-temperature:before {
+  content: "\e857";
+} /* 'î¡—' */
+.icon-solar-panel:before {
+  content: "\e858";
+} /* 'î¡˜' */
+.icon-fireplace:before {
+  content: "\e859";
+} /* 'î¡™' */
+.icon-discount:before {
+  content: "\e85a";
+} /* 'î¡š' */
+.icon-like:before {
+  content: "\e85b";
+} /* 'î¡›' */
+.icon-shield:before {
+  content: "\e85c";
+} /* 'î¡œ' */
+.icon-trolley:before {
+  content: "\e85d";
+} /* 'î¡' */
+.icon-card-payment:before {
+  content: "\e85e";
+} /* 'î¡ž' */
+.icon-chat-1:before {
+  content: "\e85f";
+} /* 'î¡Ÿ' */
