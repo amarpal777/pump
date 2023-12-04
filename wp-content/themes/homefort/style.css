@@ -2148,7 +2148,7 @@ body.admin-bar .lte-page-header {
 .lte-navbar .lte-navbar-items.navbar-mobile .lte-ul-nav li.menu-item-has-children.show > a:after {
   margin-top: 0px;
   right: 20px;
-  content: "â€“" !important;
+  content: "–" !important;
 }
 .rtl .lte-navbar .lte-navbar-items.navbar-mobile .lte-ul-nav li.menu-item-has-children.show > a:after {
   right: auto;
@@ -5751,7 +5751,7 @@ ul.check-invert.disc li:before {
   font-family: 'Open Sans', sans-serif;
   font-family: var(--font-main), sans-serif;
   letter-spacing: var(--font-main-letterspacing);
-  content: "â€¢";
+  content: "•";
   font-weight: 400;
   font-size: 20px;
   margin: -1px 0 0 -18px;
@@ -5798,7 +5798,7 @@ ul.multicol li {
   }
 }
 ul.multicol li:before {
-  content: "â€¢";
+  content: "•";
   font-size: 16px;
   margin: 0px 10px 0 0px;
   color: #f35d22;
@@ -12823,7 +12823,7 @@ h3.comment-reply-title small {
   bottom: 20px;
 }
 .comments-ol h3 small a:before {
-  content: "Ã—";
+  content: "×";
   font-size: 20px;
   padding: 8px 0;
   color: #f35d22;
@@ -28286,7 +28286,7 @@ div[class*="lte-background-"].elementor-column.lte-background-gray .elementor-co
   font-family: 'Open Sans', sans-serif;
   font-family: var(--font-main), sans-serif;
   letter-spacing: var(--font-main-letterspacing);
-  content: "â€’";
+  content: "‒";
   font-weight: 400;
 }
 .elementor-accordion .elementor-accordion-item .elementor-tab-content {
