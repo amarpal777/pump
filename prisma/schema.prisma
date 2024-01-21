@@ -14,3 +14,8 @@ model Article {
   imgUrl    String
   createdAt DateTime @default(now())
 }
+
+model Images {
+  id       String   @id @default(auto()) @map("_id") @db.ObjectId
+  url      String
+}
