@@ -16,6 +16,7 @@ model Article {
 }
 
 model Images {
-  id       String   @id @default(auto()) @map("_id") @db.ObjectId
-  url      String
+  id   String @id @default(auto()) @map("_id") @db.ObjectId
+  name String
+  url  String
 }

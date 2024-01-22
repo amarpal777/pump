@@ -4,6 +4,7 @@ import { verifyJWT } from "./login";
 import { PrismaClient } from "@prisma/client";
 const schema = z.object({
   url: z.string(),
+  name: z.string(),
 });
 export default async function (
   request: VercelRequest,
@@ -18,11 +19,12 @@ export default async function (
     if (!isVerified) {
       throw new Error("Unauthorized");
     }
-    const { url } = schema.parse(request.body);
+    const { url, name } = schema.parse(request.body);
     const prisma = new PrismaClient();
     await prisma.images.create({
       data: {
         url,
+        name
       },
     });
     return response.status(200).json({
