@@ -20,3 +20,10 @@ model Images {
   name String
   url  String
 }
+
+model Featured {
+  id     String @id @default(auto()) @map("_id") @db.ObjectId
+  title  String
+  url    String
+  imgUrl String
+}
