@@ -1468,49 +1468,7 @@
                                 <div
                                   class="elementor-element elementor-element-b15600b elementor-widget elementor-widget-lte-gallery"
                                   data-id="b15600b" data-element_type="widget" data-widget_type="lte-gallery.default">
-                                  <div class="elementor-widget-container">
-                                    <div class="lte-swiper-slider-wrapper">
-                                      <div
-                                        class="lte-swiper-slider swiper-container lte-gallery-sc lte-gallery-slider swipebox-gallery"
-                                        data-space-between="0" data-arrows="false" data-autoplay="1000"
-                                        data-autoplay-interaction="" data-loop="1" data-speed="1500" data-effect="slide"
-                                        data-slides-per-group="-1" data-pagination="false"
-                                        data-breakpoints="4;4;4;3;2;1">
-                                        <div
-                                          style="display: flex; padding: 1rem; width: 100%; align-items: center; justify-content: center;">
-                                          <h3>
-                                            Featured</h>
-                                        </div>
-                                        <div class="swiper-wrapper" id="show_featured">
-                                          <a href="/abc" class="swipebox swiper-slide"><span>
-                                              <span style="text-align: center;">Some random Pump</span>
-                                              <img width="800" height="800" src="/wp-content/uploads/2021/11/jed.png"
-                                                class="attachment-homefort-gallery-big size-homefort-gallery-big" alt=""
-                                                loading="lazy" />
-
-                                            </span></a>
-                                          <a href="/abc" class="swipebox swiper-slide"><span><img width="800"
-                                                height="800" src="/wp-content/uploads/2021/11/jed.png"
-                                                class="attachment-homefort-gallery-big size-homefort-gallery-big" alt=""
-                                                loading="lazy" /></span></a>
-                                          <a href="/abc" class="swipebox swiper-slide"><span><img width="800"
-                                                height="800" src="/wp-content/uploads/2021/11/jed.png"
-                                                class="attachment-homefort-gallery-big size-homefort-gallery-big" alt=""
-                                                loading="lazy" /></span></a>
-                                          <a href="/abc" class="swipebox swiper-slide"><span><img width="800"
-                                                height="800" src="/wp-content/uploads/2021/11/jed.png"
-                                                class="attachment-homefort-gallery-big size-homefort-gallery-big" alt=""
-                                                loading="lazy" /></span></a>
-                                          <a href="/abc" class="swipebox swiper-slide"><span><img width="800"
-                                                height="800" src="/wp-content/uploads/2021/11/jed.png"
-                                                class="attachment-homefort-gallery-big size-homefort-gallery-big" alt=""
-                                                loading="lazy" /></span></a>
-
-
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
+                             
                                 </div>
                               </div>
                             </div>
@@ -2675,18 +2633,7 @@
     const json = await req.json();
     console.log(json);
     json.forEach((item) => {
-      const eleme = `
-   <a href="/dasdasdda" class="swipebox swiper-slide"><span>
-                                    <span style="text-align: center;">Some random Pump</span>
-                                    <img width="800" height="800" src="${item.imgUrl}"
-                                      class="attachment-homefort-gallery-big size-homefort-gallery-big" alt=""
-                                      loading="lazy" />
-
-                                  </span></a>
-   `   ;
-      swiper.appendSlide(eleme);
-      swiper.update();
-      console.log("added");
+      
     });
 
 
