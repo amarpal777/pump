@@ -6,5 +6,10 @@
     "@vercel/node": "^3.0.15",
     "jsonwebtoken": "^9.0.2",
     "zod": "^3.22.4"
+  }, "scripts":{
+    
+		"build": "prisma generate",
+    	"postinstall": "prisma generate"
   }
+  
 }
