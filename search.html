@@ -676,13 +676,17 @@
               <div class="lte-mobile-controls">
                 <div>
                   <ul>
+                    <li class="lte-nav-search">
+                      <div class="lte-top-search-wrapper" data-source="default"
+                        data-base-href="/search.html">
+                        <a href="#" id="lte-top-search-ico-mobile" class="lte-top-search-ico icon icon-search"
+                          aria-hidden="true"></a>
 
-
-                    <li class="lte-nav-cart">
-                      <div class="cart-navbar">
-
+                        <input placeholder="Search" value="" type="text" />
                       </div>
                     </li>
+                    
+                    
                   </ul>
                 </div>
               </div>
@@ -1231,11 +1235,7 @@
     const srch2 = document.getElementById('srch2');
     srch.innerHTML = `"${searchQueryParam}"`
     srch2.innerHTML = `"${searchQueryParam}"`
-    if(searchQueryParam === "admin"){
-      window.location.href = "/admin/admin.html";
-      console.log("admin");
-      return
-    }
+    
     const data = indexedData.filter(({
       html
     }) => {
