@@ -971,10 +971,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
     function addImage() {
       const url = prompt("Enter Image URL");
       const name = prompt("Enter Image Name");
-      if (!url.startsWith("https://i.imgur.com/")) {
-        alert("Invalid URL, URL must Start with https://i.imgur.com/");
-        return;
-      }
+    
       (async () => {
         const req = await fetch("/api/admin/addImage", {
           method: "POST",
